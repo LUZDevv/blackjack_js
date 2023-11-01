@@ -20,7 +20,7 @@ playerEl.textContent = player.name + ": $" + player.chips
 let playerTextContent = player.name + ": $";
 
 function getRandomCard() {
-    let randomNumber = Math.floor( Math.random() * 12 ) + 1
+    let randomNumber = Math.floor( Math.random() * 13 ) + 1
     if (randomNumber === 11) {
         return 11
     } else if (randomNumber > 10) {
